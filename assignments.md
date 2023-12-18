@@ -100,14 +100,7 @@ Note: In-class exercises will not be graded.
   - [How to read a JSON file](https://www.freecodecamp.org/news/python-parse-json-how-to-read-a-json-file/#how-to-parse-and-read-a-json-file-in-python)
 {% else -%}
 - **PDF export:**
-
-  - **Plotly charts/maps not appearing:** Include the [boilerplate](https://whynameitthat.blogspot.com/2013/10/boiler-plate.html) code.
-
-    ```python
-    import plotly.io as pio
-    pio.renderers.default = "notebook_connected+pdf"
-    ```
-
+  - **Plotly charts/maps not appearing:** Make sure you've done the [one-time setup](lecture_0.ipynb#id2).
   - **500 error:** You may be outputting too much data. Try reducing your output (in the Jupyter sense) to smaller subsets.
 {% endif -%}
 - **When using `choropleth_mapbox()`, nothing appears on the map:** Make sure:

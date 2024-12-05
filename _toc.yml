@@ -12,6 +12,9 @@ chapters:
       - file: curve
       {%- endif %}
   - file: resources
+    sections:
+      - file: operator_precedence
+      - file: filtering
   - url: "{{lms_url}}"
     title: "{{lms_name}}"
   - url: "{{discussions_url}}"

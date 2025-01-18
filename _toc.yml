@@ -31,6 +31,10 @@ chapters:
         sections:
           - file: lecture_2_exercise
             title: In-class exercise
+          {% if id == "columbia" -%}
+          - file: lecture_2_demo_solution
+            title: Demo solution
+          {%- endif %}
       - file: lecture_3
         sections:
           - file: lecture_3_exercise
